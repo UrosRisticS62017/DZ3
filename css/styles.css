@@ -1,0 +1,297 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(../images/pattern.jpg);
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.header
+{
+    padding: 10px;
+}
+
+.header img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.header q
+{
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    background-color: bisque;
+}
+
+.topnav 
+{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks 
+{
+    display: none;
+}
+  
+.topnav a 
+{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+     
+.topnav a.icon 
+{
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover 
+{
+    background-color: rgb(168, 135, 135);
+    color: black;
+}
+  
+.active 
+{
+    background-color: rgb(24, 54, 44);
+    color: white;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    font-size:35px;
+    background-color: bisque; 
+}
+
+ul li a
+{
+    display: block;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    background-color: #547FB2;
+}
+
+.centralniSadrzaj
+{
+    padding: 20px;
+    margin-top: 30px;
+    background-color:#FFE4C4;
+}
+
+.leviSidebar
+{
+    width: 15%;
+    float: left;
+    background-color: bisque;
+}
+
+.centralniDeo
+{
+    width: 85%;
+    display: inline-block;
+}
+
+.o_nama
+{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+  
+.kontakt
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 15px;
+    padding: 30px;
+    
+}
+  
+.column 
+{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+  
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.galerija
+{
+    margin: 10px 50px;
+}
+
+.galerija img
+{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.galerija img:hover
+{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.centralniDeo .vest
+{
+    width: 45%;
+    float: left;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+}
+
+.centralniDeo .proizvodi
+{
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    background-color: bisque;
+    margin:5px;
+    padding: 5px;
+}
+
+.centralniDeo .proizvodi .tocak
+{
+    width: 30%;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    margin: 5px;
+    padding: 5px;
+}
+
+.centralniDeo .proizvodi .ulozak
+{
+    width: 30%;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    margin: 5px;
+    padding: 5px;
+}
+
+.centralniDeo .proizvodi .hvat1
+{
+    width: 30%;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    margin: 5px;
+    padding: 5px;
+}
+
+.cena
+{
+    color: gray;
+    font-size: 20px;
+}
+
+.proizvodi button
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.proizvodi button a:hover
+{
+    opacity: 0.8;
+}
+
+.proizvodi input
+{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.centralniDeo img
+{
+    width: 100%;
+}
+
+.footer
+{
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+    background-color: bisque;
+}

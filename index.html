@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pocetna</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.PNG" alt="page_logo">
+            <q>Luck is what happens when preparation meets opportunity.</q>
+        </div>
+        <div class="topnav">
+            <a href="index.html" class="active">Meni</a>
+            <div id="myLinks">
+              <a href="index.html">Pocetna</a>
+              <a href="o_nama.html">O nama</a>
+              <a href="#galerija">Galerija</a>
+              <a href="#proizvodi">Proizvodi</a>
+              <a href="kontakt.html">Kontakt</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
+          </div>
+        <div class="centralni sadrzaj">
+            <form action="register.php">
+            <div class="leviSidebar">
+                <h2>Registracija</h2>
+                <p>Molimo popunite formu da biste napravili nalog.</p>
+                <hr>
+                
+                <label for="ime">Ime</label>
+                <input type="text" placeholder="Unesite Vase ime" name="ime" required>
+
+                <label for="prezime">Prezime</label>
+                <input type="text" placeholder="Unesite Vase prezime" name="prezime" required>
+
+                <label for="datumR"> Datum rodjenja</label>
+                <input type="date" placeholder="Unesite datum Vaseg rodjenja" name="datumR" required>
+                
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="Unesite Email" name="email" required>
+
+                <label for="password">Lozinka</label>
+                <input type="password" placeholder="Unesite lozinku" name="lozinka" required>
+
+                <label for="password-repeat">Ponovite lozinku</label>
+                <input type="password" placeholder="Ponovite lozinku" name="password-repeat" required>
+                <hr>
+                <button type="submit" class="register">Registruj se</button>
+            </div>
+            </form>
+                 <div class="centralniDeo">
+                    <div class="vest">
+                        <h1>Svetskom rekorderu u "mrtvom dizanju" i evropska titula</h1>
+                        <hr>
+                        <img src="images/milan.jpg" alt="milan_gvozdenovic">
+                        <h2>Sa podignutih 265 kg u disciplini "mrtvo dizanje", takmicar niskog kluba "Konzulat" Milan Grozdanovic, osvojio je zlatnu medalju u kategoriji do 75 kg na Evropskom prvenstvu. 
+                            Ovaj rezultat, kazu u niskom "powerlifting" klubu, obezbedio mu je i pehar za relativno najjaceg takmicara u seniorskoj konkurenciji.</h2>
+                    </div>
+                    <div class="vest">
+                            <h1>Ruskinja u Svrljigu nastupila u opremi nepriznate Republike Donjeck</h1>
+                            <hr>
+                            <img src="images/marijana.jpg" alt="marijana">
+                            <h2>Na takmicenju u Svrljigu u benchpresu, cetvorostruka juniorska prvakinja sveta Marijana Naumova nastupila je u opremi sa oznakama nepriznate samoproglašene Republike Donjeck. 
+                                Iako na pomolu diplomatskog incidenta, Naumova za Juzne vesti kaze da ona studira na dve akademije u Moskvi i Donjecku i da je u Svrljigu samo predstavljala ta dva grada i svoje 
+                                dve obrazovne institucije, a da je ona drzavljanka Rusije.</h2>
+                    </div>
+                    <div class="vest">
+                            <h1>U Nisu medjunarodno takmicenje u dizanju tegova</h1>
+                            <hr>
+                            <img src="images/legionari.jpg" alt="legionari">
+                            <h2>Najjaci ljudi iz 5 zemalja, kako su najavili u nickom klubu Legionari, okupice se u subotu, 16. decembra, sa pocetkom od 10 sati, u sali Osnovne ckole “Miroslav Antic”. 
+                                Oni ce se nadmetati u razlicitim disciplinama dizanja tegova, a organizatori ocekuju da ce ovo biti najbrojnije takmicenje u Srbiji ove godine. </h2>
+                    </div>
+                    <div class="vest">
+                            <h1>Nislija odbranio svetsku titulu i zabelezio novi rekord u dizanju tegova</h1>
+                            <hr>
+                            <img src="images/milan2.jpg" alt="milan_gvozdenovic">
+                            <h2>Apsolutno najbolji takmicar u disciplini "mrtvo" dizanje tegova sa opremom, na Svetskom prvenstvu odrzanom u Ceskoj, bio je NiSlija Milan Grozdanovic. 
+                                On je oborio svetski rekord podigavsi 270 kg i tako odbranio titulu planetarnog sampiona u kategoriji seniora do 75 kg. </h2>
+                    </div>
+                    <div class="vest">
+                            <h1>Nislijke ponovo najbolje na Balkanu u "powerlifting"-u</h1>
+                            <hr>
+                            <img src="images/legionari2.jpg" alt="legionari">
+                            <h2>U konkurenciji takmicara iz zemalja regiona i gostiju iz Poljske najbolje su se pokazale devojke iz nickog kluba Legionari. 
+                                One su osvojile tri zlata i jedno srebro, zbog cega je ekipa iz Nisa proglasena za najbolju u zenskoj konkurenciji. </h2>
+                    </div>
+                    <div class="vest">
+                            <h1>Dva zlata za Nislije na medjunarodnom takmicenju u "powerliftingu"</h1>
+                            <hr>
+                            <img src="images/anakulic.jpg" alt="ana_i_milan">
+                            <h2>Aktuelni sampion sveta u "powerliftingu" Milan Grozdanovic vraca se sa gotovo svakog takmicenja sa novom titulom, pa tako ni zlato osvojeno na Otvorenom prvenstvu Crne Gore nije bilo neocekivano. 
+                                Medjutim, glavno iznenadjenje bila je Nislijka Ana Kulic, koja je, uprkos tome sto je bila najmladja takmicarka, postala sampion. </h2>
+                    </div>
+                    <div class="proizvodi">
+                            <h1>Proizvodi koje nudimo</h1>
+                            <div class="tocak">
+                                <img src="images/tocak.jpg" alt="tocak" style="width:100%">                                    <h1>Tocak za trbusnjake</h1>
+                                <p class="cena">2000RSD</p>
+                                <p>Tocak za trbusnjake je idealan za one koji zele da ojacaju trbusni zid i ujedno poboljsaju koordinaciju.</p>
+                                <label>Kolicina</label>
+                                <input type="text" value="1">
+                                <p><button>Dodaj u korpu</button></p>
+                            </div>
+                            <div class="ulozak">
+                                <img src="images/ulozak.jpg" alt="ulozak" style="width:100%">
+                                <h1>Ulozak za bench</h1>
+                                <p class="cena">3000RSD</p>
+                                <p>Ulozak za bench se koristi za "overload" grudnih misica kako bi se povecala snaga guranja na takmicarskom benchu.</p>
+                                <label>Kolicina</label>
+                                <input type="text" value="1">
+                                <p><button>Dodaj u korpu</button></p>
+                            </div>
+                            <div class="hvat1">                                        
+                                <img src="images/hvat1.jpg" alt="hvat1" style="width:100%">                                
+                                <h1>Swiss sipka za lat</h1>
+                                <p class="cena">8000RSD</p>
+                                <p>Swiss sipka je idealna zamena za staromodnu ravnu sipku na lat masini.
+                                Sa njom mozete pogoditi vise misica ledja.</p>
+                                <label>Kolicina</label>
+                                <input type="text" value="1">
+                                <p><button>Dodaj u korpu</button></p>
+                            </div>  
+                    </div>
+                </div>
+        </div>
+        <div class="footer">
+                &copy; Uros Ristic S06/2017
+                <p>Stevana Sindjelica 38 Obrenovac</p>
+                <p>uristic17@raf.rs</p>
+                <p>0643348515</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pocetna</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.PNG" alt="page_logo">
+            <q>Luck is what happens when preparation meets opportunity.</q>
+        </div>
+        <div class="topnav">
+            <a href="index.html" class="active">Meni</a>
+            <div id="myLinks">
+              <a href="index.html">Pocetna</a>
+              <a href="o_nama.html">O nama</a>
+              <a href="#galerija">Galerija</a>
+              <a href="#proizvodi">Proizvodi</a>
+              <a href="kontakt.html">Kontakt</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
+          </div>
+                    <div class="o_nama">
+                      <h1>O nama</h1>
+                      <p><strong>Naš tim se trudi da Vam pruži najnovije
+                        vesti iz sveta powerliftinga i bodybuildinga.
+                        Postoijimo kao udruženje već 10 godina i 
+                        nastavljamo da radimo punom parom i ove godine,
+                        kao što smo radili i proteklih godina.</strong>
+                      </p>
+                    </div>
+                    <div class="galerija">
+                        <h1>Naš tim</h1>
+                        <a href="/images/powerlifting1.jpg" data-lightbox="mygallery"><img src="/images/powerlifting1-small.jpg"></a>
+                        <a href="/images/powerlifting2.jpg" data-lightbox="mygallery"><img src="/images/powerlifting2-small.jpg"></a>
+                        <a href="/images/powerlifting3.jpeg" data-lightbox="mygallery"><img src="/images/powerlifting3-small.jpg"></a>
+                        <a href="/images/powerlifting4.jpg" data-lightbox="mygallery"><img src="/images/powerlifting4-small.jpg"></a>
+                        <a href="/images/bodybuilding1.jpg" data-lightbox="mygallery"><img src="/images/bodybuilding1-small.jpg"></a>
+                        <a href="/images/bodybuilding2.jpeg" data-lightbox="mygallery"><img src="/images/bodybuilding2-small.jpg"></a>
+                        <a href="/images/bodybuilding3.jpg" data-lightbox="mygallery"><img src="/images/bodybuilding3-small.jpg"></a>
+                    </div>
+        </div>
+        <div class="footer">
+                &copy; Uros Ristic S06/2017
+                <p>Stevana Sindjelica 38 Obrenovac</p>
+                <p>uristic17@raf.rs</p>
+                <p>0643348515</p>
+        </div>
+    </div>
+</body>
+</html>

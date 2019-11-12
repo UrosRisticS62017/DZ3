@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pocetna</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <img src="images/logo.PNG" alt="page_logo">
+        <q>Luck is what happens when preparation meets opportunity.</q>
+    </div>
+    <div class="topnav">
+        <a href="index.html" class="active">Meni</a>
+        <div id="myLinks">
+          <a href="index.html">Pocetna</a>
+          <a href="o_nama.html">O nama</a>
+          <a href="#galerija">Galerija</a>
+          <a href="#proizvodi">Proizvodi</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+        </script>
+      </div>
+        <div class="centralni sadrzaj">
+                <div class="centralniDeo">
+                        <div class="kontakt">
+                                <div style="text-align:center">
+                                  <h2>Kontaktirajte nas!</h2>
+                                  <p>Ostavite poruku:</p>
+                                </div>
+                                <div class="row">
+                                  <div class="column">
+                                    <div id="map"></div>
+                                      <script>
+                                        function initMap(){
+                                          var belgrade = {lat: 44.7866, lng: 20.4489};
+                                          var map = new google.maps.Map(
+                                              document.getElementById('map'), {zoom: 4, center: belgrade});
+                                          var marker = new google.maps.Marker({position: belgrade, map: map});
+                                        }
+                                      </script>
+                                      <script async defer
+                                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP12Nu00Qyd0qCnFXOrCmOTvl5JskKyS0&callback=initMap">
+                                      </script>
+                                  </div>
+                                  <div class="column">
+                                    <form action="/action_page.php">
+                                      <label for="ime">Ime</label>
+                                      <input type="text" id="ime" name="licnoIme" placeholder="Vase ime..">
+                                      <label for="prezime">Prezime</label>
+                                      <input type="text" id="prezime" name="licnoPrezime" placeholder="Vase prezime..">
+                                      <label for="country">Drzava</label>
+                                      <select id="drzava" name="drzava">
+                                        <option value="srbija">Srbija</option>
+                                        <option value="crnaGora">Crna Gora</option>
+                                        <option value="makedonija">Makedonija</option>
+                                      </select>
+                                      <label for="subject">Vasa poruka</label>
+                                      <textarea id="subject" name="subject" placeholder="Napisite nesto.." style="height:170px"></textarea>
+                                      <input type="submit" value="Posalji">
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="footer">
+                &copy; Uros Ristic S06/2017
+                <p>Stevana Sindjelica 38 Obrenovac</p>
+                <p>uristic17@raf.rs</p>
+                <p>0643348515</p>
+        </div>
+    </div>
+</body>
+</html>
